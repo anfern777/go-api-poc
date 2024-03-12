@@ -1,4 +1,4 @@
-# web3-gaming
+# GOLANG API POC
 
 ## Migration UP
 
