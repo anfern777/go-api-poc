@@ -1,0 +1,2 @@
+CREATE TABLE "users" ("id" bigserial,"created_at" timestamptz,"updated_at" timestamptz,"deleted_at" timestamptz,"privilege" text,"email" text UNIQUE,"password" text,PRIMARY KEY ("id"));
+CREATE INDEX IF NOT EXISTS "idx_users_deleted_at" ON "users" ("deleted_at");
